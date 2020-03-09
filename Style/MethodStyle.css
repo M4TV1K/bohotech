@@ -1,0 +1,1047 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    background-color: black;
+}
+
+#headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 6vw;
+}
+
+#headerLogo {
+    width: 4.5vw;
+    margin-left: 3%;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    width: 52vw;
+}
+.navButtons {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1vw;
+    margin-right: 7%;
+    color: white;
+    width: fit-content;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+.navButtons:active, #headerContactUsBtn:active {
+    opacity: 0.5;
+}
+#headerContactUsBtn {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1vw;
+    margin-left: 5%;
+    margin-right: 7%;
+    padding: 1vw 2vw;
+    color: white;
+    border: 0.07vw solid white;
+    border-radius: 5vw;
+    outline: none;
+    background-color: transparent;
+}
+#hiddenRequest, #extendButton {
+    display: none;
+}
+
+.headerText {
+    font-family: "Libre Baskerville", sans-serif;
+    color: #00A69B;
+}
+.bigHeaderText {
+    font-size: 6.5vw;
+}
+#topHeaderContainer {
+    margin-top: 3vw;
+    display: flex;
+    justify-content: center;
+}
+#topHeader {
+    text-align: center;
+    width: 38%;
+}
+
+.whiteHeader {
+    font-family: "Libre Baskerville", sans-serif;
+    font-weight: normal;
+    font-size: 3vw;
+    color: white;
+    margin-bottom: 4.5vw;
+}
+.textAndPhotoHolder {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#workingStructureArt {
+    margin-top: 7vw;
+}
+.photosHolder {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+.sphereImg {
+    width: 30%;
+}
+
+
+.keepDistance {
+    margin-top: 17vw;
+}
+.circleImg {
+    width: 17vw;
+}
+
+#teamMonitoringVideo {
+    width: 45%;
+    margin-bottom: 14vw;
+}
+
+
+#ownTheTeamArt {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background-color: white;
+}
+#ownTeamHeader {
+    text-align: center;
+    margin-top: 14vw;
+}
+.bigBlueHeader {
+    font-size: 4.6vw;
+}
+.blueText {
+    font-family: "Libre Baskerville", sans-serif;
+    color: #00A69B;
+}
+#optionsHolder {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin-bottom: 14vw;
+}
+.optionSec {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 36%;
+}
+#verticalLine {
+    border: 1px solid #BEBEBE;
+    margin: 0 8.5vw;
+}
+#firstOption {
+    align-items: flex-end;
+    text-align: right;
+}
+#secondOption {
+    align-items: flex-start;
+    text-align: left;
+}
+
+.blueMediumHeader {
+    font-weight: normal;
+    font-size: 2.3vw;
+    margin-bottom: 0;
+}
+.investHeader {
+    font-weight: normal;
+    font-size: 3.5vw;
+    line-height: 5vw;
+    margin-top: 2.5vw;
+    border-bottom: 2.5vw;
+}
+.darkGrey, .paragraphText {
+    font-family: Montserrat, sans-serif;
+    color: #3D3D3D;
+}
+.weirdBigText {
+    font-weight: normal;
+    font-size: 2.3vw;
+}
+.investWeirdText {
+    font-size: 1.5vw;
+    margin-top: 0.6vw;
+    margin-bottom: 0;
+}
+.paragraphText {
+    margin-top: 0.4vw;
+    font-size: 1.2vw;
+    line-height: 1.9vw;
+}
+
+#remoteManagementArt {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+#remoteBlueHeader {
+    margin-top: 14vw;
+    margin-bottom: 1.6vw;
+}
+#remoteGreyHeader {
+    font-weight: normal;
+    text-align: center;
+    width: 75%;
+    font-size: 1.55vw;
+    line-height: 2.2vw;
+}
+.lightGrey {
+    font-family: Montserrat, sans-serif;
+    color: #BEBEBE;
+}
+#remoteManagementVideo {
+    width: 50%;
+    margin-top: 4vw;
+    margin-bottom: 2vw;
+}
+
+#remoteDescriptionArt {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin-bottom: 14vw;
+}
+
+#productionContainer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+}
+
+#productionContainer, #otherDescriptionArt {
+    width: 50%;
+}
+
+#productManageSection {
+    width: 79%;
+    margin-right: 5%;
+}
+#greyLine {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.greyLines {
+    border: 0.04vw solid #707070;
+}
+.ourSkillsSection {
+    margin-left: 1.8vw;
+    width: 75%;
+}
+
+.productionHeader {
+    font-weight: normal;
+    width: 67%;
+    font-size: 3vw;
+    line-height: 4.2vw;
+}
+
+.remoteTextParagraph {
+    font-size: 1.1vw;
+    line-height: 1.7vw;
+}
+#smallHeader {
+    font-weight: normal;
+    margin-top: 3vw;
+    font-size: 1.5vw;
+}
+#listParagraph {
+    font-size: 1.07vw;
+    line-height: 1.5vw;
+}
+#horizontalLine {
+    margin-right: 15%;
+}
+#communicationText {
+    margin-bottom: 1vw;
+}
+
+
+#demandArt {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    background-color: white;
+}
+
+#demandHeader {
+    width: 50%;
+    margin-top: 14vw;
+    margin-bottom: 2.5vw;
+}
+#demandGreyParagraph {
+    width: 75%;
+    font-size: 1.55vw;
+    line-height: 2.2vw;
+}
+.moveLeft {
+    margin-left: 8%;
+}
+
+.chiefText {
+    font-size: 2.45vw;
+}
+#devToDesign {
+    margin-top: 1vw;
+    margin-bottom: 14vw;
+    font-size: 2.45vw;
+}
+#partTimeText, #freelancersText {
+    margin-top: 2.5vw;
+    margin-bottom: 0;
+}
+#firstLine {
+    margin-top: 1vw;
+    margin-bottom: 0;
+}
+#secondLine {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#thirdLine {
+    margin-top: 0;
+}
+
+#contactFooter {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding-top: 6vw;
+    width: 100%;
+    border-image: url("../Images/Homepage/BorderGradient.png") 15% round;
+    border-top: 5px solid transparent;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    background-color: black;
+}
+
+#getInDiv {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    margin-left: 10%;
+    height: 18.5vw;
+    line-height: 8vw;
+}
+
+#getInHeader {
+    color: white;
+    font-size: 8vw;
+    margin: 0;
+    width: 42vw;
+    line-height: 9vw;
+}
+
+#lastPar {
+    color: #BEBEBE;
+    font-size: 1vw;
+    margin-top: 0.15vw;
+}
+
+#inputAndPolicyDiv {
+    margin-right: 10%;
+    width: 34vw;
+}
+
+#inputForm {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.inputBox {
+    font-size: 1.1vw;
+    font-family: 'Montserrat', sans-serif;
+    color: #BEBEBE;
+    background-color: transparent;
+    padding: 0.8vw 0;
+    border: none;
+    border-bottom: 1px solid #5F5F5F;
+    margin-bottom: 1.75vw;
+}
+
+.inputBox:active {
+    border-bottom: 1px solid #3D3D3D;
+}
+
+.inputBox:focus {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+::placeholder {
+    color: #BEBEBE;
+}
+
+#whiteRequest {
+    background-color: white;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    outline: none;
+    border-radius: 2vw;
+    font-size: 1.1vw;
+    padding: 1vw 2.5vw;
+}
+
+#privacyPolicy {
+    text-align: center;
+    margin-top: 6.5vw;
+    margin-bottom: 1vw;
+    font-size: 0.85vw;
+    line-height: initial;
+    color: #BEBEBE;
+}
+
+
+@media screen and (max-width: 1300px){
+    #headerContainer {
+        height: 7vw;
+    }
+    nav {
+        width: 60vw;
+    }
+    .navButtons, #headerContactUsBtn {
+        font-size: 1.2vw;
+    }
+    #headerContactUsBtn {
+        margin-left: 2%;
+        margin-right: 5%;
+    }
+
+    #topHeaderContainer {
+        margin-top: 4vw;
+    }
+    .bigHeaderText {
+        font-size: 7.5vw;
+    }
+    #topHeader {
+        width: 43%;
+    }
+
+    #workingStructureArt {
+        margin-top: 8vw;
+    }
+    .whiteHeader {
+        font-size: 3.2vw;
+    }
+    .sphereImg {
+        width: 33%;
+    }
+
+    .keepDistance {
+        margin-top: 18vw;
+    }
+    .circleImg {
+        width: 18%;
+    }
+    #teamMonitoringVideo {
+        width: 55%;
+    }
+
+    .bigBlueHeader {
+        font-size: 5vw;
+    }
+    .blueMediumText {
+        font-size: 2.6vw;
+    }
+    .investHeader {
+        font-size: 3.7vw;
+    }
+    .investWeirdText {
+        font-size: 1.7vw;
+    }
+    .weirdBigText {
+        font-size: 2.6vw;
+    }
+    .paragraphText {
+        font-size: 1.3vw;
+        line-height: 2.1vw;
+    }
+
+    .greyLines {
+        border: 1px solid #707070;
+    }
+    .productionHeader {
+        font-size: 3.2vw;
+        line-height: 4.6vw;
+    }
+    .remoteTextParagraph {
+        font-size: 1.2vw;
+        line-height: 1.9vw;
+    }
+    #productManageSection {
+        width: 86%;
+    }
+    #smallHeader {
+        font-size: 1.6vw;
+    }
+    .ourSkillsSection {
+        width: 82%;
+    }
+    #communicationText {
+        margin-bottom: -0.2vw;
+    }
+    #listParagraph {
+        font-size: 1.15vw;
+        line-height: 1.7vw;
+    }
+
+    #demandHeader {
+        width: 65%;
+    }
+    #demandGreyParagraph {
+        width: 83%;
+        font-size: 1.75vw;
+        line-height: 2.3vw;
+    }
+    .chiefText, #devToDesign {
+        font-size: 2.65vw;
+    }
+
+    #lastPar {
+        font-size: 1.1vw;
+    }
+    #inputAndPolicyDiv {
+        width: 39vw;
+    }
+    .inputBox {
+        font-size: 1.3vw;
+    }
+    #whiteRequest {
+        font-size: 1.25vw;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    #headerContainer {
+        position: initial;
+        left: 0;
+        top: 0;
+        z-index: 1;
+        flex-wrap: wrap;
+        background-color: rgba(0, 0, 0, 0.25);
+        align-items: normal;
+        height: 9vw;
+    }
+    main, footer {
+        filter: none;
+    }
+    #headerLogo {
+        flex: 0 0 7.5%;
+        margin-left: 3%;
+        margin-top: 1.6vw;
+        height: 5.4vw;
+    }
+    #extendButton {
+        display: inline;
+        margin-top: 2.5vw;
+        margin-right: 3%;
+        width: 4vw;
+        height: 4vw;
+        border: none;
+        outline: none;
+        background-color: transparent;
+        background-image: url("../Images/Methodpage/ExtendButton.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    #extendButton:active {
+        opacity: 0.5;
+    }
+    nav {
+        flex: 1 1 100%;
+        height: 72%;
+        margin-top: 5vw;
+        margin-bottom: 16vw;
+        display: none;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navButtons {
+        margin: 0;
+        font-size: 6vw;
+    }
+    #headerContactUsBtn {
+        display: none;
+    }
+    #hiddenRequest {
+        display: block;
+        font-size: 2.75vw;
+        width: 50%;
+        padding: 2vw 2vw;
+        margin-bottom: 5vw;
+        font-family: 'Montserrat', sans-serif;
+        border: 1px solid white;
+        color: white;
+        border-radius: 10vw;
+        outline: none;
+        background-color: transparent;
+    }
+    #hiddenRequest:active {
+        opacity: 0.5;
+    }
+
+    #topHeaderContainer {
+        margin-top: 6vw;
+    }
+    .bigHeaderText {
+        font-size: 8vw;
+    }
+    #topHeader {
+        width: 44%;
+    }
+
+    #workingStructureArt {
+        margin-top: 12vw;
+    }
+    .whiteHeader {
+        text-align: center;
+        font-size: 6vw;
+        line-height: 8.8vw;
+        width: 60%;
+        margin-bottom: 6vw;
+    }
+    .photosHolder {
+        flex-wrap: wrap;
+    }
+    .sphereImg {
+        width: 45%;
+    }
+
+    .twoLineHeader {
+        width: 40%;
+    }
+    .circleImg {
+        width: 40%;
+        margin-bottom: 5%;
+        margin-right: 2.5%;
+        margin-left: 2.5%;
+    }
+
+    #teamMonitoringVideo {
+        width: 65%;
+    }
+
+    #ownTheTeamArt {
+        align-items: flex-start;
+    }
+    #ownTeamHeader {
+        text-align: left;
+        margin-left: 6%;
+        margin-bottom: 0;
+    }
+    #verticalLine {
+        display: none;
+    }
+    #optionsHolder {
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 94%;
+        margin-left: 6%;
+    }
+    #firstOption {
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .optionSec {
+        margin-top: 10vw;
+        width: 76%;
+    }
+
+    .bigBlueHeader {
+        font-size: 8vw;
+    }
+    .blueMediumHeader {
+        font-size: 5vw;
+        margin-bottom: 3vw;
+    }
+    .investHeader {
+        font-size: 7.2vw;
+        line-height: 8.5vw;
+    }
+    .investWeirdText {
+        font-size: 3.7vw;
+    }
+    .weirdBigText {
+        font-size: 5vw;
+    }
+    .paragraphText {
+        font-size: 2.95vw;
+        line-height: 4vw;
+    }
+
+    #horizontalLine, #greyLine {
+        display: none;
+    }
+
+    #remoteManagementArt {
+        align-items: flex-start;
+    }
+    #remoteBlueHeader {
+        width: 55%;
+        margin-left: 6%;
+    }
+    #remoteGreyHeader {
+        text-align: left;
+        margin-left: 6%;
+        font-size: 3.1vw;
+        line-height: 5vw;
+        width: 54%;
+    }
+    #remoteManagementVideo {
+        width: 60%;
+        margin: 6vw 20% 4vw;
+    }
+
+    #remoteDescriptionArt {
+        flex-direction: column;
+        justify-content: initial;
+    }
+
+    #productionContainer, #otherDescriptionArt {
+        width: 100%;
+    }
+    #productionContainer {
+        justify-content: flex-start;
+    }
+    #productManageSection {
+        width: 74%;
+        margin-right: 0;
+        margin-left: 6%;
+    }
+    .ourSkillsSection {
+        margin-top: 8vw;
+        margin-left: 6%;
+        width: 69%;
+    }
+    .productionHeader {
+        font-size: 5vw;
+        line-height: 6.6vw;
+        width: 55%;
+    }
+    .remoteTextParagraph {
+        font-size: 2.95vw;
+        line-height: 4.2vw;
+    }
+    #smallHeader {
+        width: 62%;
+        font-size: 4vw;
+        margin-top: 12vw;
+    }
+    #listParagraph {
+        font-size: 2.65vw;
+        line-height: 3.6vw;
+    }
+
+    #demandGreyParagraph {
+        width: 72%;
+        font-size: 4.4vw;
+        line-height: 6.5vw;
+    }
+    .chiefText {
+        font-size: 4.7vw;
+        width: 70%;
+    }
+    #devToDesign {
+        font-size: 4.7vw;
+    }
+    #secondLine {
+        margin-top: 6vw;
+        margin-bottom: 6vw;
+    }
+    #demandHeader {
+        margin-bottom: 3vw;
+    }
+    #partTimeText {
+        margin-top: 20vw;
+    }
+    #freelancersText {
+        margin-top: 4vw;
+    }
+    #firstLine, #devToDesign {
+        margin-top: 8vw;
+    }
+    .moveLeft {
+        margin-left: 6%;
+    }
+
+    #contactFooter {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+    }
+    #getInDiv {
+        width: fit-content;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20vw;
+        margin-bottom: 9.5vw;
+        margin-left: 0;
+    }
+    #getInHeader {
+        font-size: 12vw;
+        text-align: center;
+        width: fit-content;
+    }
+    #lastPar {
+        text-align: center;
+        font-size: 3.5vw;
+        width: 70%;
+        line-height: 3.75vw;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+
+    }
+    #inputAndPolicyDiv {
+        width: 100%;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        margin-right: 0;
+    }
+    #inputForm {
+        width: 90%;
+        align-items: center;
+    }
+    #whiteRequest {
+        font-size: 4vw;
+        width: 100%;
+        border-radius: 6vw;
+        padding-top: 4vw;
+        padding-bottom: 4vw;
+    }
+    .inputBox {
+        width: 100%;
+        font-size: 4vw;
+        margin-bottom: 7vw;
+        padding-bottom: 2vw;
+    }
+    #privacyPolicy {
+        font-size: 2.2vw;
+        line-height: 4vw;
+        margin-top: 13vw;
+        margin-bottom: 8vw;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 535px){
+    #headerContainer {
+        height: 14vw;
+    }
+    #headerLogo {
+        flex: 0 0 10.75%;
+        height: 7.75vw;
+        margin-top: 3vw;
+    }
+    #extendButton {
+        width: 6vw;
+        height: 6vw;
+        margin-top: 4vw;
+    }
+    nav {
+        margin-top: 0;
+        height: 60%;
+    }
+    .navButtons {
+        font-size: 10vw;
+    }
+    #hiddenRequest {
+        font-size: 4vw;
+        width: 75%;
+        padding: 4vw 2vw;
+        margin-bottom: 4vw;
+    }
+
+    #topHeaderContainer {
+        margin-top: 8vw;
+    }
+    #topHeader {
+        width: 55%;
+    }
+    .bigHeaderText {
+        font-size: 10vw;
+    }
+    .whiteHeader {
+        font-size: 7vw;
+        line-height: 9.5vw;
+        width: 70%;
+    }
+    .sphereImg {
+        width: 40%;
+        height: 40%;
+    }
+
+    .circleImg, .twoLineHeader {
+        width: 38%;
+        height: 38%;
+    }
+    #teamMonitoringVideo {
+        width: 85%;
+    }
+
+    #ownTeamHeader {
+        margin-left: 4%;
+        margin-top: 22vw;
+    }
+    #optionsHolder {
+        width: 96%;
+        margin-left: 4%;
+        margin-bottom: 22vw;
+    }
+    .optionSec {
+        margin-top: 20vw;
+        width: 92%;
+    }
+    .bigBlueHeader {
+        font-size: 10.8vw;
+    }
+    .blueMediumHeader {
+        font-size: 6.75vw;
+        margin-bottom: 6vw;
+    }
+    .investHeader {
+        font-size: 10.3vw;
+        line-height: 12.5vw;
+    }
+    .investWeirdText {
+        font-size: 5.1vw;
+    }
+    .weirdBigText {
+        font-size: 7.1vw;
+    }
+    .paragraphText {
+        font-size: 3.7vw;
+        line-height: 5.5vw;
+    }
+
+    #remoteBlueHeader {
+        width: 75%;
+        margin-top: 22vw;
+        margin-left: 4%;
+    }
+    #remoteGreyHeader {
+        margin-left: 4%;
+        font-size: 5.5vw;
+        line-height: 9vw;
+        width: 92%;
+    }
+    #remoteManagementVideo {
+        width: 100%;
+        margin: 18vw 0 8vw;
+    }
+    #productManageSection {
+        margin-left: 4%;
+        width: 96%;
+    }
+    .productionHeader {
+        font-size: 6.9vw;
+        line-height: 8.6vw;
+        width: 88%;
+    }
+    .remoteTextParagraph {
+        font-size: 3.9vw;
+        line-height: 6.2vw;
+    }
+    #smallHeader {
+        width: 60%;
+        font-size: 5vw;
+        margin-top: 16vw;
+    }
+    #listParagraph {
+        font-size: 3.6vw;
+        line-height: 5vw;
+    }
+    .ourSkillsSection {
+        margin-top: 10vw;
+        margin-left: 4%;
+        width: 88%;
+    }
+    #remoteDescriptionArt {
+        margin-bottom: 22vw;
+    }
+
+    #demandHeader {
+        width: 80%;
+        margin-top: 22vw;
+        margin-bottom: 4vw;
+    }
+    #demandGreyParagraph {
+        width: 88%;
+        font-size: 5.4vw;
+        line-height: 9vw;
+    }
+    #partTimeText, #freelancersText {
+        font-size: 8vw;
+    }
+    .moveLeft {
+        margin-left: 4%;
+    }
+    #devToDesign {
+        margin-bottom: 22vw;
+    }
+    .chiefText {
+        font-size: 4.85vw;
+    }
+    #secondLine {
+        margin-top: 8vw;
+        margin-bottom: 8vw;
+    }
+    #firstLine, #devToDesign {
+        margin-top: 9vw;
+    }
+
+    #whiteRequest {
+        font-size: 4.25vw;
+        padding: 5vw 2vw;
+        border-radius: 10vw;
+    }
+    #getInDiv {
+        margin-top: 23vw;
+        margin-bottom: 14vw;
+    }
+    #inputAndPolicyDiv {
+        width: 100%;
+    }
+    .inputBox {
+        font-size: 4.2vw;
+        margin-bottom: 7.5vw;
+        padding-bottom: 3.5vw;
+    }
+    #lastPar {
+        margin-top: 6vw;
+        font-size: 3.6vw;
+        line-height: 4.25vw;
+    }
+    #privacyPolicy {
+        margin-top: 16vw;
+        margin-bottom: 8vw;
+        line-height: 4.4vw;
+        font-size: 2.5vw;
+    }
+}

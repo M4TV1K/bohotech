@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9ce1e31c-fa6d-42e9-aabb-8c66a58efe6c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1QQAmoechthjOCKT2K3Us6sL6RE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../TIN" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Programming\Web Projects\BohoTech\Images\Environmentpage" />
+      <recent name="E:\Programming\Web Projects\BohoTech\Images\Methodpage" />
+      <recent name="E:\Programming\JS\ScrollingPage\Style" />
+      <recent name="E:\Programming\JS\ScrollingPage\Script" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9ce1e31c-fa6d-42e9-aabb-8c66a58efe6c" name="Default Changelist" comment="" />
+      <created>1557516993136</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557516993136</updated>
+      <workItem from="1557516994224" duration="267000" />
+      <workItem from="1563056344831" duration="29679000" />
+      <workItem from="1563128948479" duration="10862000" />
+      <workItem from="1563194301695" duration="147245000" />
+      <workItem from="1563700630930" duration="32547000" />
+      <workItem from="1564075850085" duration="628000" />
+      <workItem from="1564239785922" duration="15000" />
+      <workItem from="1564306701403" duration="722000" />
+      <workItem from="1564307527251" duration="631000" />
+      <workItem from="1564354002079" duration="20000" />
+      <workItem from="1564429099245" duration="584000" />
+      <workItem from="1564564485622" duration="302000" />
+      <workItem from="1564568084458" duration="1466000" />
+      <workItem from="1564841018742" duration="4981000" />
+      <workItem from="1564997789549" duration="58000" />
+      <workItem from="1565151184519" duration="37000" />
+      <workItem from="1567692615164" duration="3412000" />
+      <workItem from="1567707063103" duration="516000" />
+      <workItem from="1568898468169" duration="35000" />
+      <workItem from="1568898514384" duration="205000" />
+      <workItem from="1568902932043" duration="61000" />
+      <workItem from="1569151986967" duration="95000" />
+      <workItem from="1570542358522" duration="13000" />
+      <workItem from="1570542386769" duration="11000" />
+      <workItem from="1571242493096" duration="586000" />
+      <workItem from="1571250979516" duration="59000" />
+      <workItem from="1571395140467" duration="268000" />
+      <workItem from="1583688288170" duration="241000" />
+    </task>
+    <task id="LOCAL-00001" summary="Creating control version of BohoTech perfect website">
+      <created>1563216861089</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1563216861089</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Improvement">
+      <created>1563361248974</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1563361248974</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Completed page">
+      <created>1563365319731</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1563365319732</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added new Method page, semi-fixed old page">
+      <created>1563479869069</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1563479869069</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Almost fixed homepage">
+      <created>1563487885614</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1563487885615</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Fixed homepage">
+      <created>1563492819706</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1563492819706</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Hopefully last fix of homepage">
+      <created>1563529705246</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1563529705246</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Final fix was final fix. Half of the new page is already READY">
+      <created>1563566381641</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1563566381641</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Almost made second page, and hopefully there won't be any hot fix">
+      <created>1563699839661</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1563699839661</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Completed method page">
+      <created>1563707512301</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1563707512302</updated>
+    </task>
+    <task id="LOCAL-00011" summary="People page completed">
+      <created>1563713424190</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1563713424190</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Added pictures of astronaut">
+      <created>1563713860724</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1563713860724</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Homepage renamed to index">
+      <created>1564429289137</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1564429289137</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Creating control version of BohoTech perfect website" />
+    <MESSAGE value="Improvement" />
+    <MESSAGE value="Completed page" />
+    <MESSAGE value="Added new Method page, semi-fixed old page" />
+    <MESSAGE value="Almost fixed homepage" />
+    <MESSAGE value="Fixed homepage" />
+    <MESSAGE value="Hopefully last fix of homepage" />
+    <MESSAGE value="Final fix was final fix. Half of the new page is already READY" />
+    <MESSAGE value="Almost made second page, and hopefully there won't be any hot fix" />
+    <MESSAGE value="Completed method page" />
+    <MESSAGE value="People page completed" />
+    <MESSAGE value="Added pictures of astronaut" />
+    <MESSAGE value="Homepage renamed to index" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homepage renamed to index" />
+  </component>
+</project>

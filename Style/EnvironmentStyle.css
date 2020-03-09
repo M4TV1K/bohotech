@@ -1,0 +1,824 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+}
+
+#headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 6vw;
+    background-image: url("../Images/Homepage/HeaderGradient.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#headerLogo {
+    width: 4.5vw;
+    margin-left: 3%;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    width: 52vw;
+}
+
+#extendButton {
+    display: none;
+}
+
+.navButtons {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1vw;
+    margin-right: 7%;
+    width: fit-content;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+.navButtons:active, #headerContactUsBtn:active {
+    opacity: 0.5;
+}
+
+#headerContactUsBtn {
+    font-size: 1vw;
+    margin-left: 5%;
+    margin-right: 7%;
+    padding: 1vw 2vw;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    border: 0.07vw solid black;
+    border-radius: 2vw;
+    outline: none;
+    background-color: transparent;
+}
+
+#hiddenRequest {
+    display: none;
+}
+
+#workingEnvironmentArt {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin-top: 8vw;
+}
+#topHeader {
+    margin-bottom: 0;
+}
+.headerText {
+    font-family: "Libre Baskerville", sans-serif;
+    color: #00A69B;
+}
+.bigHeaderText {
+    font-size: 4.2vw;
+}
+#environmentsHolder {
+    padding-bottom: 14vw;
+}
+
+.environmentImages {
+    height: 15vw;
+}
+.environmentArt {
+    margin-top: 8vw;
+    width: 70%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+.environmentArt:nth-child(odd) {
+    margin-left: 28vw;
+}
+.environmentTextHolder {
+    margin-left: 2vw;
+}
+
+.smallBlueHeader {
+    font-weight: normal;
+    font-size: 2.3vw;
+}
+.lightGreyText {
+    font-family: Montserrat, sans-serif;
+    color: #BEBEBE;
+    width: 27vw;
+    font-size: 1.07vw;
+    line-height: 1.5vw;
+}
+.listText:nth-child(even) {
+    margin-bottom: 0;
+}
+.listText:nth-child(odd) {
+    margin-top: 0;
+}
+#blueBorder {
+    width: 100%;
+    height: 10vw;
+    background-image: url("../Images/Environmentpage/BlueWhiteBorder.png");
+    background-size: 100% 100%;
+}
+
+#artBulgaria {
+    padding-top: 5vw;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background-color: white;
+}
+#videoBulgaria {
+    margin-top: 1vw;
+    border: none;
+    width: 75%;
+    height: 42.17vw;
+}
+#textHolderBulgaria {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 75%;
+    margin-top: 6vw;
+}
+.montserratText {
+    font-family: Montserrat, sans-serif;
+    color: #3D3D3D;
+}
+#verticalLine {
+    border: 1px solid #BEBEBE;
+    margin: 1px 1.2vw 0 7vw;
+}
+#bigParagraphText {
+    font-size: 1.55vw;
+    line-height: 2.3vw;
+    margin-top: 2vw;
+    margin-bottom: 2.5vw;
+}
+#smallTestSection {
+    margin-right: 4vw;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+.smallDistText {
+    font-size: 0.8vw;
+    margin-bottom: 0.2vw;
+}
+
+#visitingTeamArt {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    margin-top: 12vw;
+    margin-bottom: 12vw;
+    width: 75%;
+    height: 25vw;
+}
+#hiddenHeader {
+    display: none;
+}
+#beautifulCity {
+    margin-top: 2.5vw;
+    width: 45%;
+    height: 20vw;
+}
+#visitingTeamTextHolder {
+    width: 45%;
+    height: 100%;
+    margin-left: 10%;
+}
+#toHideHeader {
+    margin-top: 0;
+    margin-bottom: 2.5vw;
+}
+#biggerParagraph {
+    font-size: 1.12vw;
+    line-height: 1.75vw;
+}
+.smallParagraph {
+    margin-top: 2vw;
+    font-size: 0.99vw;
+    line-height: 1.3vw;
+}
+#hiddenContactButton {
+    display: none;
+}
+
+
+#contactFooter {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding-top: 6vw;
+    width: 100%;
+    border-top: 5px solid transparent;
+    border-image: url("../Images/Homepage/BorderGradient.png") 15% round;
+    background-color: black;
+}
+
+#getInDiv {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    margin-left: 10%;
+    height: 18.5vw;
+}
+
+#getInHeader {
+    font-family: "Libre Baskerville", sans-serif;
+    color: white;
+    font-size: 8vw;
+    margin: 0;
+    width: 42vw;
+    line-height: 9vw;
+}
+
+#lastPar {
+    color: #BEBEBE;
+    font-size: 1vw;
+    margin-top: 0.5vw;
+}
+
+#inputAndPolicyDiv {
+    margin-right: 10%;
+    width: 34vw;
+}
+
+#inputForm {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.inputBox {
+    font-size: 1.1vw;
+    font-family: 'Montserrat', sans-serif;
+    color: #BEBEBE;
+    background-color: transparent;
+    padding: 0.8vw 0;
+    border: none;
+    border-bottom: 1px solid #5F5F5F;
+    margin-bottom: 1.75vw;
+}
+
+.inputBox:active {
+    border-bottom: 1px solid #3D3D3D;
+}
+
+.inputBox:focus {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+::placeholder {
+    color: #BEBEBE;
+}
+
+#whiteRequest {
+    background-color: white;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    outline: none;
+    border-radius: 2vw;
+    font-size: 1.1vw;
+    padding: 1vw 2.5vw;
+}
+
+#privacyPolicy {
+    text-align: center;
+    margin-top: 6.5vw;
+    margin-bottom: 1vw;
+    font-size: 0.85vw;
+    line-height: initial;
+    color: #BEBEBE;
+}
+
+@media screen and (max-width: 1300px) {
+    #headerContainer {
+        height: 7vw;
+    }
+    nav {
+        width: 60vw;
+    }
+    .navButtons, #headerContactUsBtn {
+        font-size: 1.2vw;
+    }
+    #headerContactUsBtn {
+        margin-left: 2%;
+        margin-right: 5%;
+    }
+
+    #workingEnvironmentArt {
+        margin-top: 10vw;
+    }
+    .bigHeaderText {
+        font-size: 5vw;
+    }
+    .environmentImages {
+        height: 17vw;
+    }
+    .environmentArt {
+        margin-top: 9vw;
+    }
+    .environmentArt:nth-child(odd) {
+        margin-left: 30vw;
+    }
+    .smallBlueHeader {
+        font-size: 2.4vw;
+    }
+    .lightGreyText {
+        width: 30vw;
+        font-size: 1.2vw;
+        line-height: 1.7vw;
+    }
+
+    #bigParagraphText {
+       font-size: 1.72vw;
+        line-height: 2.55vw;
+    }
+    #verticalLine {
+        margin-left: 4vw;
+        margin-right: 0.9vw;
+    }
+    #smallTestSection {
+        margin-right: 2vw;
+    }
+    .smallDistText {
+        font-size: 0.91vw;
+        margin-bottom: 0.2vw;
+    }
+    #visitingTeamTextHolder {
+        width: 50%;
+        margin-left: 8%;
+    }
+    #biggerParagraph {
+        font-size: 1.17vw;
+        line-height: 1.8vw;
+    }
+    .smallParagraph {
+        margin-top: 2vw;
+        font-size: 1.03vw;
+        line-height: 1.6vw;
+    }
+    #beautifulCity {
+        height: 21.5vw;
+    }
+
+    #lastPar {
+        font-size: 1.1vw;
+    }
+    #inputAndPolicyDiv {
+        width: 39vw;
+    }
+    .inputBox {
+        font-size: 1.3vw;
+    }
+    #whiteRequest {
+        font-size: 1.25vw;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    #headerContainer {
+        position: initial; /*initial - fixed*/
+        left: 0;
+        top: 0;
+        z-index: 1;
+        flex-wrap: wrap;
+        background-color: rgba(0, 0, 0, 0.25);
+        align-items: normal;
+        height: 9vw; /*height: 9vw - 100%*/
+        /*background-image: url("../Images/Homepage/HeaderGradient.png") - none*/
+    }
+    main, footer {
+        filter: none; /*none - blur(30px)*/
+    }
+    #headerLogo {
+        flex: 0 0 7.5%;
+        margin-left: 3%;
+        margin-top: 1.6vw;
+        height: 5.4vw;
+    }
+    #extendButton {
+        display: inline;
+        margin-top: 2.5vw;
+        margin-right: 3%;
+        width: 4vw;
+        height: 4vw;
+        border: none;
+        outline: none;
+        background-color: transparent;
+        background-image: url("../Images/Homepage/ExtendButton.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    #extendButton:active {
+        opacity: 0.5;
+    }
+    nav {
+        flex: 1 1 100%;
+        height: 72%;
+        margin-top: 5vw;
+        margin-bottom: 16vw;
+        display: none; /*none - flex*/
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navButtons {
+        margin: 0;
+        color: white;
+        font-size: 6vw;
+    }
+    #headerContactUsBtn {
+        display: none;
+    }
+    #hiddenRequest {
+        display: block;
+        font-size: 2.75vw;
+        width: 50%;
+        padding: 2vw 2vw;
+        margin-bottom: 5vw;
+        font-family: 'Montserrat', sans-serif;
+        border: 1px solid white;
+        color: white;
+        border-radius: 10vw;
+        outline: none;
+        background-color: transparent;
+    }
+    #hiddenRequest:active {
+        opacity: 0.5;
+    }
+
+    #workingEnvironmentArt {
+        margin-top: 15vw;
+    }
+    .bigHeaderText {
+        text-align: center;
+        width: 60%;
+        font-size: 8vw;
+    }
+    .environmentArt {
+        width: 78%;
+        flex-direction: column;
+    }
+    .listText > a {
+        display: none;
+    }
+    .environmentArt:nth-child(odd) {
+        margin-left: 0;
+    }
+    .environmentImages {
+        height: 30vw;
+    }
+    #environmentsHolder {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        padding-bottom: 15vw;
+    }
+    .environmentTextHolder {
+        margin-left: 0;
+    }
+    .smallBlueHeader {
+        font-size: 5vw;
+        text-align: center;
+    }
+    .lightGreyText {
+        text-align: center;
+        width: 100%;
+        font-size: 2.95vw;
+        line-height: 4vw;
+    }
+    .listText:nth-child(even) {
+        margin-bottom: 4.5vw;
+    }
+    #blueBorder {
+        height: 15vw;
+    }
+
+
+    #artBulgaria {
+        align-items: flex-start;
+    }
+    #BulgariaHeader {
+        margin-left: 8%;
+    }
+    #videoBulgaria {
+        margin-top: 4vw;
+        width: 100%;
+        height: 56.3vw;
+    }
+
+    #artBulgaria {
+        padding-top: 3vw;
+        padding-bottom: 10vw;
+    }
+    #textHolderBulgaria {
+        width: 63%;
+        margin-top: 10vw;
+        margin-left: 8%;
+        flex-direction: column;
+    }
+    #verticalLine {
+        display: none;
+    }
+    #bigParagraphText {
+        font-size: 3.75vw;
+        line-height: 5vw;
+    }
+    #smallTestSection {
+        width: 68%;
+        margin-top: 6vw;
+        margin-right: 0;
+    }
+    .smallDistText {
+        margin-top: 4vw;
+        font-size: 2vw;
+    }
+
+    #visitingTeamArt {
+        width: 100%;
+        flex-direction: column;
+        height: initial;
+    }
+    #hiddenHeader {
+        margin-left: 8%;
+        text-align: left;
+        display: initial;
+    }
+    #toHideHeader {
+        display: none;
+    }
+    #beautifulCity {
+        width: 84%;
+        margin-left: 8%;
+        margin-top: 5.5vw;
+        height: initial;
+    }
+    #visitingTeamTextHolder {
+        display: flex;
+        flex-flow: column;
+        align-items: flex-start;
+        width: 92%;
+    }
+    #hiddenContactButton {
+        display: initial;
+        width: 62%;
+        margin-left: 15%;
+        font-family: 'Montserrat', sans-serif;
+        border: none;
+        outline: none;
+        color: white;
+        background-color: black;
+        border-radius: 7vw;
+        font-size: 2.5vw;
+        padding: 2.3vw 3.5vw;
+        margin-top: 5vw;
+    }
+    #hiddenContactButton:active {
+        opacity: 0.75;
+    }
+    #biggerParagraph {
+        margin-top: 4vw;
+        width: 63%;
+        font-size: 2.5vw;
+        line-height: 3.3vw;
+    }
+    .smallParagraph {
+        width: 60%;
+        font-size: 2vw;
+        line-height: 3vw;
+        margin-top: 5vw;
+    }
+    #specialSmallP {
+        width: 30%;
+    }
+
+    #contactFooter {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+    }
+    #getInDiv {
+        width: fit-content;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20vw;
+        margin-bottom: 9.5vw;
+        margin-left: 0;
+    }
+    #getInHeader {
+        font-size: 12vw;
+        text-align: center;
+        width: fit-content;
+    }
+    #lastPar {
+        text-align: center;
+        font-size: 3.5vw;
+        width: 70%;
+        line-height: 3.75vw;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+
+    }
+    #inputAndPolicyDiv {
+        width: 100%;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        margin-right: 0;
+    }
+    #inputForm {
+        width: 90%;
+        align-items: center;
+    }
+    #whiteRequest {
+        font-size: 4vw;
+        width: 100%;
+        border-radius: 6vw;
+        padding-top: 4vw;
+        padding-bottom: 4vw;
+    }
+    .inputBox {
+        width: 100%;
+        font-size: 4vw;
+        margin-bottom: 7vw;
+        padding-bottom: 2vw;
+    }
+    #privacyPolicy {
+        font-size: 2.2vw;
+        line-height: 4vw;
+        margin-top: 13vw;
+        margin-bottom: 8vw;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 535px) {
+    #headerContainer {
+        height: 14vw;
+    }
+    #headerLogo {
+        flex: 0 0 10.75%;
+        height: 7.75vw;
+        margin-top: 3vw;
+    }
+    #extendButton {
+        width: 6vw;
+        height: 6vw;
+        margin-top: 4vw;
+    }
+    nav {
+        margin-top: 0;
+        height: 60%;
+    }
+    .navButtons {
+        font-size: 10vw;
+    }
+    #hiddenRequest {
+        font-size: 4vw;
+        width: 75%;
+        padding: 4vw 2vw;
+        margin-bottom: 4vw;
+    }
+
+    #workingEnvironmentArt {
+        margin-top: 16vw;
+    }
+    .bigHeaderText {
+        width: 90%;
+        font-size: 10.8vw;
+    }
+    #environmentsHolder {
+        padding-bottom: 20vw;
+    }
+    .environmentImages {
+        height: 48vw;
+    }
+    .environmentArt {
+        width: 92%;
+    }
+    .smallBlueHeader {
+        font-size: 6.75vw;
+    }
+    .lightGreyText {
+        font-size: 3.5vw;
+        line-height: 5.5vw;
+    }
+    .environmentArt {
+        margin-top: 15vw;
+    }
+    #blueBorder {
+        height: 20vw;
+    }
+
+    #BulgariaHeader {
+        margin-left: 4%;
+        text-align: left;
+    }
+    #textHolderBulgaria {
+        margin-top: 14vw;
+        margin-left: 4%;
+        width: 92%;
+    }
+    #bigParagraphText {
+        font-size: 5.5vw;
+        line-height: 8.5vw;
+    }
+    #smallTestSection {
+        width: 75%;
+        margin-top: 13vw;
+    }
+    .smallDistText {
+         font-size: 3.33vw;
+         margin-top: 6.5vw;
+     }
+    #videoBulgaria {
+        margin-top: 6vw;
+    }
+
+    #visitingTeamArt {
+        margin-top: 16vw;
+    }
+    #hiddenHeader {
+        margin-left: 4%;
+    }
+    #beautifulCity {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 8vw;
+    }
+    #visitingTeamTextHolder {
+        margin-top: 4vw;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    #hiddenContactButton {
+        margin-left: 0;
+        width: 100%;
+        font-size: 4vw;
+        padding: 4.3vw 3.5vw;
+        margin-top: 10vw;
+    }
+    #biggerParagraph {
+        width: 100%;
+        font-size: 4vw;
+        line-height: 6.2vw;
+    }
+    .smallParagraph {
+        width: 90%;
+        font-size: 3.75vw;
+        line-height: 5.5vw;
+        margin-top: 10vw;
+    }
+    #specialSmallP {
+        width: 50%;
+    }
+    #artBulgaria {
+        padding-bottom: 18vw;
+    }
+
+    #whiteRequest {
+        font-size: 4.25vw;
+        padding: 5vw 2vw;
+        border-radius: 10vw;
+    }
+    #getInDiv {
+        margin-top: 23vw;
+        margin-bottom: 14vw;
+    }
+    #inputAndPolicyDiv {
+        width: 100%;
+    }
+    .inputBox {
+        font-size: 4.2vw;
+        margin-bottom: 7.5vw;
+        padding-bottom: 3.5vw;
+    }
+    #lastPar {
+        margin-top: 6vw;
+        font-size: 3.6vw;
+        line-height: 4.25vw;
+    }
+    #privacyPolicy {
+        margin-top: 16vw;
+        margin-bottom: 8vw;
+        line-height: 4.4vw;
+        font-size: 2.5vw;
+    }
+}

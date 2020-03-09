@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>boho.tech</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Libre Baskerville' rel='stylesheet'>
+    <link rel="icon" href="Images/Homepage/HeaderLogo.png">
+	<link rel="stylesheet" href="Style/EnvironmentStyle.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="Script/PeopleAndEnvironment.js"></script>
+</head>
+<body>
+    <header id="headerContainer">
+        <img id="headerLogo" src="Images/Homepage/HeaderLogo.png" alt="Logo of Boho Tech">
+        <button id="extendButton"></button>
+        <nav>
+            <button onclick="location.href='index.html'" class="navButtons">boho</button>
+            <button onclick="location.href='method.html'" class="navButtons">method</button>
+            <button onclick="location.href='people.html'" class="navButtons">people</button>
+            <button onclick="location.href='environment.html'" class="navButtons">environment</button>
+            <button id="headerContactUsBtn" class="requestContactBtn">Contact us</button>
+            <button id="hiddenRequest" class="requestContactBtn">Request Contact</button>
+        </nav>
+    </header>
+
+    <main>
+        <article id="workingEnvironmentArt">
+            <h1 id="topHeader" class="headerText bigHeaderText">Work environment</h1>
+            <article id="environmentsHolder">
+                <article class="environmentArt">
+                    <img class="environmentImages" src="Images/Environmentpage/earth.jpg" alt="Picture of our planet Earth">
+                    <section class="environmentTextHolder">
+                        <h2 class="headerText smallBlueHeader">In-house</h2>
+                        <p class="lightGreyText">
+                            We have our own spaces designed for providing
+                            the most productive and comfortable
+                            environment for your team.
+                        </p>
+                    </section>
+                </article>
+                <article class="environmentArt">
+                    <img class="environmentImages" src="Images/Environmentpage/satellite.jpg" alt="Picture of satellite in space">
+                    <section class="environmentTextHolder">
+                        <h2 class="headerText smallBlueHeader">Communication</h2>
+                        <p class="lightGreyText">
+                            We have a state of the art communication center
+                            so that your team can communicate the most
+                            effectively with you.
+                        </p>
+                    </section>
+                </article>
+                <article class="environmentArt">
+                    <img class="environmentImages" src="Images/Environmentpage/mars.jpg" alt="Picture of planet Mars">
+                    <section class="environmentTextHolder">
+                        <h2 class="headerText smallBlueHeader">External</h2>
+                        <p class="lightGreyText">
+                            We can design a space tailored to your needs
+                            outside of our own environment. That it be for
+                            conviction or security reasons.
+                        </p>
+                    </section>
+                </article>
+                <article class="environmentArt">
+                    <img class="environmentImages" src="Images/Environmentpage/galaxy.jpg" alt="Picture of some galaxy">
+                    <section class="environmentTextHolder">
+                        <h2 class="headerText smallBlueHeader">25 years of experience</h2>
+                        <p class="lightGreyText listText">
+                            We know what people want and need in their work environment.<br>
+                        </p>
+                        <p class="lightGreyText listText">
+                            <a>- </a>Cancelling sound pollution<br>
+                            <a>- </a>Not open-space centric<br>
+                            <a>- </a>Relaxing areas<br>
+                            <a>- </a>Gear that motivates them
+                        </p>
+                    </section>
+                </article>
+            </article>
+        </article>
+        <div id="blueBorder">&nbsp;</div>
+        <article id="artBulgaria">
+            <h1 id="BulgariaHeader" class="headerText bigHeaderText">Why Bulgaria?</h1>
+            <iframe id="videoBulgaria" src="https://www.youtube.com/embed/N1-Jmq7BLFE"
+                    allow="accelerometer;
+                    gyroscope;
+                    picture-in-picture" allowfullscreen>
+            </iframe>
+            <section id="textHolderBulgaria">
+                <p id="bigParagraphText" class="montserratText">
+                    Bulgaria has built over the last decade some of the best IT
+                    people in the world. In the nellies an affluent amount of
+                    Western and American companies created outsourcing
+                    posts here in Bulgaria.
+                </p>
+                <hr id="verticalLine">
+                <section id="smallTestSection">
+                    <p class="smallDistText montserratText">
+                        With this affluence, nearly 20 years down
+                        the line, people here are extremely senior
+                        and the start-up scene has boomed over
+                        the last 5 years.
+                    </p>
+                    <p class="smallDistText montserratText">
+                        Worthy companies in Sofia:<br>
+                        Ubisoft, EA,  HP, Google, Microsoft, UBER
+                        engineering, etc...
+                    </p>
+                </section>
+            </section>
+
+            <article id="visitingTeamArt">
+                <h1 id="hiddenHeader" class="headerText smallBlueHeader">Visiting your team</h1>
+                <img id="beautifulCity" src="Images/Environmentpage/BeautifulCity.png" alt="Beautiful view on the city">
+                <section id="visitingTeamTextHolder">
+                    <h1 id="toHideHeader" class="headerText smallBlueHeader">Visiting your team</h1>
+                    <p id="biggerParagraph" class="montserratText">
+                        Sofia is one of the coolest city of the moment. It is in perfect
+                        harmony for hard working and a great afterwork
+                        experiences such as the restaurants, bars and nightclub
+                        scenes.
+                    </p>
+                    <p class="smallParagraph montserratText">
+                        We encourage you to visit your team at minimum once per quarter.
+                        We can provide you with concierge services that will make sure that
+                        you are never bored when you visit the city and that time is not
+                        waisted with your team.
+                    </p>
+                    <p id="specialSmallP" class="smallParagraph montserratText">
+                        Also team buildings are
+                        awesome and cost-efficient here.
+                    </p>
+                    <button id="hiddenContactButton" class="requestContactBtn">Contact us</button>
+                </section>
+            </article>
+        </article>
+    </main>
+
+    <footer id="contactFooter">
+        <div id="getInDiv">
+            <h1 id="getInHeader" class="headerText">Get in touch</h1>
+            <p id="lastPar" class="paragraphText">*We will get back to you within one business day</p>
+        </div>
+        <div id="inputAndPolicyDiv">
+            <form id="inputForm" action="send_email_form.php" method="post">
+                <input name="name" id="inputName" class="inputBox" type="text" placeholder="Name" required maxlength="40">
+                <input name="email_phone" class="inputBox" type="text" placeholder="Email or phone number" required maxlength="50">
+                <input id="whiteRequest" type="submit" name="submit" value="Request contact">
+            </form>
+            <p id="privacyPolicy" class="paragraphText">
+                Cookie Policy &nbsp; | &nbsp; Privacy policy &nbsp; | &nbsp; © 2019 boho.tech. All rights reserved.
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

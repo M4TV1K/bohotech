@@ -1,0 +1,404 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+}
+
+#headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 6vw;
+    background-image: url("../Images/Homepage/HeaderGradient.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#headerLogo {
+    width: 4.5vw;
+    margin-left: 3%;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    width: 52vw;
+}
+
+#extendButton {
+    display: none;
+}
+
+.navButtons {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1vw;
+    margin-right: 7%;
+    width: fit-content;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+.navButtons:active, #headerContactUsBtn:active {
+    opacity: 0.5;
+}
+
+#headerContactUsBtn {
+    font-size: 1vw;
+    margin-left: 5%;
+    margin-right: 7%;
+    padding: 1vw 2vw;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    border: 0.07vw solid black;
+    border-radius: 2vw;
+    outline: none;
+    background-color: transparent;
+}
+
+#hiddenRequest {
+    display: none;
+}
+
+#astronautPicture {
+    height: 56vw;
+    background-image: url("../Images/Peoplepage/Astronaut.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+#contactFooter {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding-top: 6vw;
+    width: 100%;
+    border-top: 5px solid transparent;
+    border-image: url("../Images/Homepage/BorderGradient.png") 15% round;
+    background-color: black;
+}
+
+#getInDiv {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    margin-left: 10%;
+    height: 18.5vw;
+}
+
+#getInHeader {
+    font-family: "Libre Baskerville", sans-serif;
+    color: white;
+    font-size: 8vw;
+    margin: 0;
+    width: 42vw;
+    line-height: 9vw;
+}
+
+#lastPar {
+    color: #BEBEBE;
+    font-size: 1vw;
+    margin-top: 0.5vw;
+}
+
+#inputAndPolicyDiv {
+    margin-right: 10%;
+    width: 34vw;
+}
+
+#inputForm {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.inputBox {
+    font-size: 1.1vw;
+    font-family: 'Montserrat', sans-serif;
+    color: #BEBEBE;
+    background-color: transparent;
+    padding: 0.8vw 0;
+    border: none;
+    border-bottom: 1px solid #5F5F5F;
+    margin-bottom: 1.75vw;
+}
+
+.inputBox:active {
+    border-bottom: 1px solid #3D3D3D;
+}
+
+.inputBox:focus {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+::placeholder {
+    color: #BEBEBE;
+}
+
+#whiteRequest {
+    background-color: white;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    outline: none;
+    border-radius: 2vw;
+    font-size: 1.1vw;
+    padding: 1vw 2.5vw;
+}
+
+#privacyPolicy {
+    text-align: center;
+    margin-top: 6.5vw;
+    margin-bottom: 1vw;
+    font-size: 0.85vw;
+    line-height: initial;
+    color: #BEBEBE;
+}
+
+@media screen and (max-width: 1300px) {
+    #headerContainer {
+        height: 7vw;
+    }
+    nav {
+        width: 60vw;
+    }
+    .navButtons, #headerContactUsBtn {
+        font-size: 1.2vw;
+    }
+    #headerContactUsBtn {
+        margin-left: 2%;
+        margin-right: 5%;
+    }
+
+    #astronautPicture {
+        height: 60vw;
+    }
+
+    #lastPar {
+        font-size: 1.1vw;
+    }
+    #inputAndPolicyDiv {
+        width: 39vw;
+    }
+    .inputBox {
+        font-size: 1.3vw;
+    }
+    #whiteRequest {
+        font-size: 1.25vw;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    #headerContainer {
+        position: initial; /*initial - fixed*/
+        left: 0;
+        top: 0;
+        z-index: 1;
+        flex-wrap: wrap;
+        background-color: rgba(0, 0, 0, 0.25);
+        align-items: normal;
+        height: 9vw; /*height: 9vw - 100%*/
+        /*background-image: url("../Images/Homepage/HeaderGradient.png") - none*/
+    }
+    main, footer {
+        filter: none; /*none - blur(30px)*/
+    }
+    #headerLogo {
+        flex: 0 0 7.5%;
+        margin-left: 3%;
+        margin-top: 1.6vw;
+        height: 5.4vw;
+    }
+    #extendButton {
+        display: inline;
+        margin-top: 2.5vw;
+        margin-right: 3%;
+        width: 4vw;
+        height: 4vw;
+        border: none;
+        outline: none;
+        background-color: transparent;
+        background-image: url("../Images/Homepage/ExtendButton.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    #extendButton:active {
+        opacity: 0.5;
+    }
+    nav {
+        flex: 1 1 100%;
+        height: 72%;
+        margin-top: 5vw;
+        margin-bottom: 16vw;
+        display: none; /*none - flex*/
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navButtons {
+        margin: 0;
+        color: white;
+        font-size: 6vw;
+    }
+    #headerContactUsBtn {
+        display: none;
+    }
+    #hiddenRequest {
+        display: block;
+        font-size: 2.75vw;
+        width: 50%;
+        padding: 2vw 2vw;
+        margin-bottom: 5vw;
+        font-family: 'Montserrat', sans-serif;
+        border: 1px solid white;
+        color: white;
+        border-radius: 10vw;
+        outline: none;
+        background-color: transparent;
+    }
+    #hiddenRequest:active {
+        opacity: 0.5;
+    }
+
+    #astronautPicture {
+        height: 120vw;
+        background-image: url("../Images/Peoplepage/AstrounautTablet.png");
+    }
+
+    #contactFooter {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+    }
+    #getInDiv {
+        width: fit-content;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20vw;
+        margin-bottom: 9.5vw;
+        margin-left: 0;
+    }
+    #getInHeader {
+        font-size: 12vw;
+        text-align: center;
+        width: fit-content;
+    }
+    #lastPar {
+        text-align: center;
+        font-size: 3.5vw;
+        width: 70%;
+        line-height: 3.75vw;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+
+    }
+    #inputAndPolicyDiv {
+        width: 100%;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        margin-right: 0;
+    }
+    #inputForm {
+        width: 90%;
+        align-items: center;
+    }
+    #whiteRequest {
+        font-size: 4vw;
+        width: 100%;
+        border-radius: 6vw;
+        padding-top: 4vw;
+        padding-bottom: 4vw;
+    }
+    .inputBox {
+        width: 100%;
+        font-size: 4vw;
+        margin-bottom: 7vw;
+        padding-bottom: 2vw;
+    }
+    #privacyPolicy {
+        font-size: 2.2vw;
+        line-height: 4vw;
+        margin-top: 13vw;
+        margin-bottom: 8vw;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 535px) {
+    #headerContainer {
+        height: 14vw;
+    }
+    #headerLogo {
+        flex: 0 0 10.75%;
+        height: 7.75vw;
+        margin-top: 3vw;
+    }
+    #extendButton {
+        width: 6vw;
+        height: 6vw;
+        margin-top: 4vw;
+    }
+    nav {
+        margin-top: 0;
+        height: 60%;
+    }
+    .navButtons {
+        font-size: 10vw;
+    }
+    #hiddenRequest {
+        font-size: 4vw;
+        width: 75%;
+        padding: 4vw 2vw;
+        margin-bottom: 4vw;
+    }
+
+    #astronautPicture {
+        height: 140vw;
+        background-image: url("../Images/Peoplepage/AstrounautPhone.png");
+    }
+
+    #whiteRequest {
+        font-size: 4.25vw;
+        padding: 5vw 2vw;
+        border-radius: 10vw;
+    }
+    #getInDiv {
+        margin-top: 23vw;
+        margin-bottom: 14vw;
+    }
+    #inputAndPolicyDiv {
+        width: 100%;
+    }
+    .inputBox {
+        font-size: 4.2vw;
+        margin-bottom: 7.5vw;
+        padding-bottom: 3.5vw;
+    }
+    #lastPar {
+        margin-top: 6vw;
+        font-size: 3.6vw;
+        line-height: 4.25vw;
+    }
+    #privacyPolicy {
+        margin-top: 16vw;
+        margin-bottom: 8vw;
+        line-height: 4.4vw;
+        font-size: 2.5vw;
+    }
+}

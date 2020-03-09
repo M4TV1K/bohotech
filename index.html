@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>boho.tech</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Libre Baskerville' rel='stylesheet'>
+    <link rel="icon" href="Images/Homepage/HeaderLogo.png">
+	<link rel="stylesheet" href="Style/HomepageStyle.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="Script/HomepageScript.js"></script>
+</head>
+<body>
+    <header id="headerContainer">
+        <img id="headerLogo" src="Images/Homepage/HeaderLogo.png" alt="Logo of Boho Tech">
+        <button id="extendButton"></button>
+        <nav>
+            <button onclick="location.href='index.html'" class="navButtons">boho</button>
+            <button onclick="location.href='method.html'" class="navButtons">method</button>
+            <button onclick="location.href='people.html'" class="navButtons">people</button>
+            <button onclick="location.href='environment.html'" class="navButtons">environment</button>
+            <button id="headerContactUsBtn" class="requestContactBtn">Contact us</button>
+            <button id="hiddenRequest" class="requestContactBtn">Request Contact</button>
+        </nav>
+    </header>
+
+    <main>
+        <div id="weBuildAndManage">
+            <div id="weBuildAndManageCont">
+                <p id="weBuildHeaderT" class="headerText">We build and manage dreamteams for you.</p>
+                <p class="paragraphText topText">
+                    We tailor make and manage high-end innovative digital, software and/or hardware teams for our customers.
+                </p>
+                <p class="paragraphText topText">
+                    We also provide proven and strong experience in prototyping, business testing and go to market campaigns.
+                </p>
+                <button id="topRequestBtn" class="requestContactBtn">Request contact</button>
+            </div>
+            <video id="astronautVideo" autoplay loop muted playsinline>
+                <source src="Video/Homepage/astronaut-video.mp4" type="video/mp4"/>
+                Your browser does not support the video.
+            </video>
+        </div>
+
+        <div id="ourCustomers">
+            <h1 id="whoOurCustomText" class="headerText">Who are our customers?</h1>
+            <article id="ourCustomersDesc">
+                <section class="descriptionContainer">
+                    <h2 class="smallerHeader">Non-tech companies</h2>
+                    <p class="paragraphText miniHeader">
+                        <strong class="strongText">Companies</strong> which core business is not in technology. They seek a partner that can:
+                    </p>
+                    <p class="paragraphText listText">
+                        - find and select the right talents for them.<br>
+                        - manage a specialised environment.<br>
+                        - control and qualify the work made by a tech team.
+                    </p>
+                </section>
+
+                <section class="descriptionContainer">
+                    <h2 class="smallerHeader">Tech companies</h2>
+                    <p class="paragraphText miniHeader">
+                        <strong class="strongText">Such</strong> partners look to us to create a specific team to alleviate their existing resources for:
+                    </p>
+                    <p class="paragraphText listText">
+                        - minimising growth risks (overgrowth vs management).<br>
+                        - increasing rapidly and qualitatively resource bandwidth<br>
+                        - creating specific research & development teams in para-subjects.
+                    </p>
+                </section>
+            </article>
+        </div>
+
+        <div id="theBohoCocktail">
+            <video id="cocktailVideo" autoplay loop muted playsinline>
+                <source src="Video/Homepage/cocktail-video.mp4" type="video/mp4"/>
+                Your browser does not support the video.
+            </video>
+            <article id="cocktailTextContainer">
+                <div id="cocktailVideoHolder">
+                    <h1 id="bohoCocktailHeader" class="headerText">The boho cocktail</h1>
+                    <video id="cocktailVideoCompressed" autoplay loop muted playsinline>
+                        <source src="Video/Homepage/cocktail-video-compressed.mp4" type="video/mp4"/>
+                        Your browser does not support the video.
+                    </video>
+                </div>
+
+                <h2 id="weBeenAround" class="smallerHeader">We have been around and done some things.</h2>
+                <h3 class="ourExperience">We have a base</h3>
+                <p class="paragraphText cocktailParagraph">
+                    We failed enough to have earned success and spare you future failures.
+                </p>
+                <h3 class="ourExperience">We like strength</h3>
+                <p class="paragraphText cocktailParagraph">
+                    We only go for challenging and long-term projects. These are the ones that will attract you the best people.
+                </p>
+
+                <section id="noBullshitContainer">
+                    <div id="stDiv">
+                        <h3 class="ourExperience">No bullshit</h3>
+                        <p class="paragraphText cocktailParagraph">
+                            Because we provide remote working we must guarantee and encourage transparency.
+                        </p>
+                    </div>
+                    <button id="requestCocktail" class="requestContactBtn">Request Contact</button>
+                </section>
+            </article>
+        </div>
+
+        <div id="astronautHandsDiv">
+            <article id="moreThanTechContainer">
+                <h2 id="moreThanTechText" class="smallerHeader">
+                    It is more about your technology stack than coding languages
+                </h2>
+                <p id="handsParagraph" class="paragraphText">
+                    We adapt to your technology stack (coding languages)
+                    or propose you the one necessary for your project or company.
+                </p>
+                <div id="astroHandsContainer">
+                    <video id="astroHandsVideoCompressed" autoplay loop muted playsinline>
+                        <source src="Video/Homepage/astro-hands-video-compressed.mp4" type="video/mp4"/>
+                        Your browser does not support the video.
+                    </video>
+                </div>
+                <button class="requestContactBtn">Request contact</button>
+            </article>
+
+            <video id="astroHandsVideo" autoplay loop muted playsinline>
+                <source src="Video/Homepage/astro-hands-video.mp4" type="video/mp4"/>
+                Your browser does not support the video.
+            </video>
+        </div>
+
+        <article id="techSkillArticle">
+            <h1 id="typesOfTechHeader">Type of<a id="hideTech"> tech</a> profiles</h1>
+            <div id="typesOfTech">
+                <p id="firstTechElement" class="typesOfTechPoints">CTO’s</p>
+                <p class="typesOfTechPoints">Front-end</p>
+                <p class="typesOfTechPoints">Back-end</p>
+                <p class="typesOfTechPoints">Full stack</p>
+                <p class="typesOfTechPoints">Mobile</p>
+                <p class="typesOfTechPoints">UI/UX</p>
+                <p id="lastTechElement" class="typesOfTechPoints">QA</p>
+            </div>
+        </article>
+
+        <article id="foundersArt">
+            <section id="foundersDescription">
+                <h1 id="foundersHeader" class="headerText">Founders</h1>
+                <h2 class="smallerHeader partTime">Part-time CTOship</h2>
+                <h2 class="smallerHeader partTime">Part-time CMSOship</h2>
+                <p id="partTimeDescription" class="paragraphText">
+                    So far most of our customers have come through our
+                    advisory services first. Our multi-industry expertise has
+                    brought us customers that ask us to imagine products
+                    and then build the team to deliver and manage them.
+                </p>
+            </section>
+            <div>
+                <img class="co-fonderPhoto" src="Images/Homepage/PhilipPhoto.png" alt="Photo of co-founder Philip">
+                <p class="nameOfFounder">Philip</p>
+            </div>
+            <div id="divOfTihomir">
+                <img class="co-fonderPhoto" src="Images/Homepage/TihomirPhoto.png" alt="Photo of co-founder Tihomir">
+                <p class="nameOfFounder">Tihomir</p>
+            </div>
+        </article>
+
+        <article id="skillsContainer">
+            <h1 id="founderExperience">Founder Experience</h1>
+            <div id="founderSkills">
+                <p id="firstSkill" class="typesOfSkillPoints">Aerospace</p>
+                <p class="typesOfSkillPoints">Energy</p>
+                <p class="typesOfSkillPoints">Entertainment</p>
+                <p class="typesOfSkillPoints">Fintech</p>
+                <p class="typesOfSkillPoints">Gaming</p>
+                <p class="typesOfSkillPoints">Healthcare</p>
+                <p class="typesOfSkillPoints">Insurtech</p>
+                <p id="lastSkill" class="typesOfSkillPoints">Prod</p>
+            </div>
+        </article>
+
+        <article id="ourTeamsArt">
+            <h1 id="theBiggestHeader" class=headerText>Teams we built</h1>
+
+            <article class="ourProjectArts">
+                <img class="companiesLogo" src="Images/Homepage/OrderBird.png" alt="Logo of Order Bird">
+                <section class="companiesDescription">
+                    <h1 class="headerText companiesHeader">Orderbird</h1>
+                    <p class="paragraphText">
+                        They offer you a POS system that adapts to your needs.<br>
+                        Their customer consultants are seasoned restaurateurs
+                        with the expertise to help you find the best deal.
+                    </p>
+                </section>
+            </article>
+            <article class="ourProjectArts">
+                <img class="companiesLogo" src="Images/Homepage/Appetitable.png" alt="Logo of Appetitable">
+                <section class="companiesDescription">
+                    <h1 class="headerText companiesHeader">Appetitable</h1>
+                    <p class="paragraphText">
+                        An application for reserving a table at over 200 000 restaurants
+                        in Europe and the Middle East.
+                    </p>
+                </section>
+            </article>
+            <article class="ourProjectArts">
+                <img class="companiesLogo" src="Images/Homepage/Medichome.png" alt="Logo of Medichome">
+                <section class="companiesDescription">
+                    <h1 class="headerText companiesHeader">Medichome</h1>
+                    <p class="paragraphText">
+                        Telemedicine application for simplifying the life of doctors and patients.
+                    </p>
+                </section>
+            </article>
+            <article class="ourProjectArts">
+                <img class="companiesLogo" src="Images/Homepage/Shyn.png" alt="Logo of Shyn">
+                <section class="companiesDescription">
+                    <h1 class="headerText companiesHeader">Shyn</h1>
+                    <p class="paragraphText">
+                        Text here
+                    </p>
+                </section>
+            </article>
+            <article class="ourProjectArts">
+                <img class="companiesLogo" src="Images/Homepage/Flyver.png" alt="Logo of Flyver">
+                <section class="companiesDescription">
+                    <h1 class="headerText companiesHeader">Flyver</h1>
+                    <p class="paragraphText">
+                        Text here
+                    </p>
+                </section>
+            </article>
+            <article class="ourProjectArts">
+                <img class="companiesLogo" src="Images/Homepage/YourDream.png" alt="Picture of something unbelievable">
+                <section id="lastDescSection" class="companiesDescription">
+                    <h1 class="headerText companiesHeader">Build your dream team!</h1>
+                    <button id="projectContactBtn" class="requestContactBtn">Request contact</button>
+                </section>
+            </article>
+        </article>
+
+        <article id="whatIsYour">
+            <h1 id="anotherBiggestHeader" class="headerText">What is your<br>project?</h1>
+            <p id="firstRow" class="paragraphText yoursText">Your project must be interesting, because the best need challenges. </p>
+            <p id="secondRow" class="paragraphText yoursText">
+                If not, we might just help your project be more innovative and attractive ;)
+            </p>
+            <p class="paragraphText yoursText">
+                No interest in short-term, our minimum project duration is 6 months for min 2 people with
+                a trial period of 3 months.
+            </p>
+            <p class="paragraphText yoursText">We always start with one person but a team only exists after 2.</p>
+            <p class="paragraphText yoursText">Sadly we sometime do refuse projects.</p>
+            <button id="yoursRequestBtn" class="requestContactBtn">Request contact</button>
+        </article>
+    </main>
+
+    <footer id="contactFooter">
+        <div id="getInDiv">
+            <h1 id="getInHeader" class="headerText">Get in touch</h1>
+            <p id="lastPar" class="paragraphText">*We will get back to you within one business day</p>
+        </div>
+        <div id="inputAndPolicyDiv">
+            <form id="inputForm" action="send_email_form.php" method="post">
+                <input name="name" id="inputName" class="inputBox" type="text" placeholder="Name" required maxlength="40">
+                <input name="email_phone" class="inputBox" type="text" placeholder="Email or phone number" required maxlength="50">
+                <input id="whiteRequest" type="submit" name="submit" value="Request contact">
+            </form>
+            <p id="privacyPolicy" class="paragraphText">
+                Cookie Policy &nbsp; | &nbsp; Privacy policy &nbsp; | &nbsp; © 2019 boho.tech. All rights reserved.
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
